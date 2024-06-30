@@ -505,3 +505,7 @@ pysnmp  # BSD
 simplejson  # MIT
 six  # MIT
 zake  # Apache-2.0
+
+## Temporary fix (downgrade) for avoid np.bool deprecation
+
+numpy==1.19.5
