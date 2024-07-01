@@ -410,8 +410,8 @@ python-consul===1.1.0
 more-itertools===10.2.0
 seqdiag===3.0.0
 zc.lockfile===3.0.post1
-numpy===1.24.4;python_version=='3.8'
-numpy===1.26.4;python_version>='3.9'
+## Temporary fix (downgrade) for avoid np.bool deprecation
+numpy==1.19.5
 msgpack===1.0.8
 Sphinx===7.1.2;python_version=='3.8'
 Sphinx===7.3.7;python_version>='3.9'
